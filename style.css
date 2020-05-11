@@ -1,0 +1,404 @@
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: rgb(48, 46, 46);
+}
+/*---------------------------index----------------------------*/
+
+
+/* nav bar */
+.navbar.navbar-expand-lg.navbar-light ul {
+   margin-left: 20px;
+   padding-left: 40px;
+
+}
+.active a{
+    color: #ec0000 !important;
+}
+
+.web-name{
+    font-family: 'Oswald', sans-serif;
+}/* nav bar*/
+
+/* cover photo */
+.cover-photo {
+    height: 82vh;
+    background:url('img/porche2.jpg') no-repeat 0 -400px;
+    min-height: 500px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.cover-txt {
+    background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0, 0.4); /* Black w/opacity/see-through */
+  margin-top: 260px;
+  color: white;
+  font-weight: bold;
+  border: 3px solid #f1f1f1;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 2;
+  width: 80%;
+  padding: 20px;
+  text-align: center;
+
+}
+
+/* cover photo */
+
+
+/* news */
+.news-title{
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 90px;
+}
+.news-color{
+    color: #ffffff;
+}
+.card-deck{
+    margin-bottom: 10px;
+    margin-right: 0px;
+    margin-left: 0px;
+}
+.card{
+    background-color:rgb(17, 15, 15);
+    padding: 10px;
+}
+.card-text,.card-title{
+    color:#fff;
+    
+}
+
+/* news in responsive */
+
+@media (max-width:600px){
+    .card:hover{
+        transform: scale(0.9);
+        transition: 0.5s;
+
+
+    }
+}
+@media (min-width:600px){
+    .card:hover{
+        transform: scale(1.1);
+        transition: 0.5s;
+
+
+    }
+}
+
+/*---------------------------index----------------------------*/
+
+
+
+
+/*---------------------------cars----------------------------*/
+
+/* cars */
+.cars-cover-photo {
+    background: url('img/download2.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 350px;
+    margin-bottom: 2rem;
+    
+}
+.cars-cover-text1 {
+    letter-spacing: 1px;
+    text-align: center;
+    padding-top: 70px;
+    text-transform: uppercase;
+    text-shadow: 2 red;
+    color: white;
+    text-shadow: 0 1px 0 #ccc, 0 2px 0 #c9c9c9, 0 3px 0 #bbb, 0 4px 0 #b9b9b9, 0 5px 0 #aaa, 0 6px 1px rgba(0,0,0,.1), 0 0 5px rgba(0,0,0,.1), 0 1px 3px rgba(0,0,0,.3), 0 3px 5px rgba(0,0,0,.2), 0 5px 10px rgba(0,0,0,.25), 0 10px 10px rgba(0,0,0,.2), 0 20px 20px rgba(0,0,0,.15);
+    font-style: italic;
+    font-weight: 700;
+    color: #fff;
+}
+.cars-cover-text2 {
+    letter-spacing: 1px;
+    text-align: center;
+    padding: 50px;
+    text-transform: uppercase;
+    text-shadow: 2 red;
+    color: white;
+    font-style: italic;
+    font-weight: 700;
+    color: #fff;
+}
+  /* cars */
+  /* car navbar  */
+  a.nav-link{
+    color:black;
+}
+.nav-link{
+    color: white;
+}
+.back{
+    background-color: rgb(117, 97, 101);
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 40px;
+;
+}
+.back2:hover{
+    background-color: rgb(194, 109, 106);
+    color: rgb(0, 0, 0);
+}
+
+  /* car navbar  */
+
+
+  /*---------------------------cars----------------------------*/
+
+
+/*---------------------------cars-sale----------------------------*/
+/* car s*/
+.sale-car{
+    margin: 2vh 2vh;
+    border-radius: 1em;
+    background-color: grey;
+}
+.car-row{
+    margin-top: 4vh;
+    padding:5vh;
+    width: 50vh;
+}
+.carousel-inner img {
+    width: 100%;
+    height: 50%;
+}
+@media (max-width:600px){
+    .carousel-inner img,.carousel{
+       width: 355px;
+       padding: 0;
+
+    }
+}
+.row{
+    padding-left: 15px;
+}
+.car-row{
+    padding: 0;
+}
+
+.car-row-specs{
+    padding-top: 4vh;
+}
+.car-row-price{
+    margin-right: 5em;
+}
+@media (max-width:600px){
+    .car-row-price{
+       
+        padding-left: 135px;
+        padding-bottom: 10px;
+
+    }
+}
+.price{
+    font-weight: bold;
+    font-size: 2em;
+    color: rgb(204, 58, 58);
+}
+
+/* merceses-benz */
+.car-name{
+    color: #fff;
+    padding-top: 100px;
+    padding-left: 20px;
+}
+
+/* merceses-benz */
+
+/*---------------------------cars-salle----------------------------*/
+/* font-family: 'Oswald',sans-serif;
+    color:#fff;
+    
+    
+    .find-your-car{
+    color: #fff;
+    text-align: center;
+    margin-top: 30px;
+
+}
+*/
+/*-------------------------SERVICE----------------------------*/
+.service{
+    list-style-type: none;
+}
+.cars-cover-photo-service{
+    background: url('img/download2.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 350px;
+    margin-bottom: 2rem;
+
+}
+.cars-cover-text-service,.cars-cover-text-about-us{
+    letter-spacing: 1px;
+    text-align: center;
+    padding-top: 120px;
+    text-transform: uppercase;
+    text-shadow: 2 red;
+    color: white;
+    text-shadow: 0 1px 0 #ccc, 0 2px 0 #c9c9c9, 0 3px 0 #bbb, 0 4px 0 #b9b9b9, 0 5px 0 #aaa, 0 6px 1px rgba(0,0,0,.1), 0 0 5px rgba(0,0,0,.1), 0 1px 3px rgba(0,0,0,.3), 0 3px 5px rgba(0,0,0,.2), 0 5px 10px rgba(0,0,0,.25), 0 10px 10px rgba(0,0,0,.2), 0 20px 20px rgba(0,0,0,.15);
+    font-style: italic;
+    font-weight: 700;
+    color: #fff;
+}
+.service-icon{
+    padding-right: 2rem;
+}
+/*---------------------------SERVICES----------------------------*/
+
+
+/*---------------------------ABOUT US----------------------------*/
+
+.about-us-text{
+    color: #fff;
+    padding: 20px;
+    font-family: 'Noto Sans JP', sans-serif;
+    text-align: center;
+}
+.about-us-text2{
+    color: #fff;
+    padding: 20px;
+    font-family: 'Pacifico', cursive;
+    font-size: 30px;
+}
+
+.contactUs{
+    color: #fff;
+    text-align:left;
+    padding-left: 20px;
+}
+.contact{
+    padding: 4%;
+    height: 400px;
+}
+
+.contact-info{
+    margin-top:10%;
+}
+.contact-info img{
+    margin-bottom: 15%;
+}
+.contact-info h2{
+    margin-bottom: 10%;
+}
+
+.contact-form label{
+    font-weight:600;
+}
+.contact-form button{
+    background: #25274d;
+    color: #fff;
+    font-weight: 600;
+    width: 25%;
+}
+.contact-form button:focus{
+    box-shadow:none;
+}
+
+
+#contact{
+    background-color: #00a1ec6c;
+    letter-spacing: 2px;
+    margin: 0;
+    }
+  #contact a{
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  
+  @media (max-width: 575.98px) {
+  
+    #contact{padding-bottom: 800px;}
+    #contact .maps iframe{
+      width: 100%;
+      height: 450px;
+    }
+   }
+  
+  
+  @media (min-width: 576px) {
+  
+     #contact{padding-bottom: 800px;}
+  
+     #contact .maps iframe{
+       width: 100%;
+       height: 450px;
+     }
+   }
+  
+  @media (min-width: 768px) {
+  
+    #contact{padding-bottom: 350px;}
+  
+    #contact .maps iframe{
+      width: 100%;
+      height: 850px;
+    }
+  }
+  
+  @media (min-width: 992px) {
+    #contact{padding-bottom: 200px;}
+  
+     #contact .maps iframe{
+       width: 100%;
+       height: 700px;
+     }
+  }
+  
+  
+  #author a{
+    color: #fff;
+    text-decoration: none;
+      
+  }
+
+
+  /*---------------------------ABOUT US----------------------------*/
+
+/* footer */
+.page-footer{
+    background-color: rgb(126, 114, 114);
+}
+.links{
+    padding-left: 110px;
+}
+.text-lowercase,.text-uppercase,.list-unstyled,.footer-copyright,.text-uppercasee{
+    color: #fff;
+    letter-spacing: 2px;
+}
+.list-unstyled{
+    margin-left: 20px;
+}
+.text-uppercasee:hover{
+    color: #ec0000;
+    border-bottom-color: tomato;
+}
+.footer-link{
+    color:rgb(0, 0, 0)
+}
+.footer-link:hover{
+color: #ec0000;
+}
+.link{
+    color: rgb(65, 65, 65);
+}
+.link:hover{
+    color:#ec0000 ;
+}
+
+/* footer */

@@ -1,4 +1,4 @@
-
+@import url('https://fonts.googleapis.com/css2?family=Satisfy&display=swap');
 body {
     margin: 0;
     padding: 0;
@@ -73,6 +73,7 @@ body {
     color:#fff;
     
 }
+
 
 /* news in responsive */
 
@@ -400,5 +401,11 @@ color: #ec0000;
 .link:hover{
     color:#ec0000 ;
 }
-
+.footer-txt{
+    color: #000;
+    font-family: 'Satisfy', cursive;
+}
+.footer-txt:hover{
+    color: #000;
+}
 /* footer */

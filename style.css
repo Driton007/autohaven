@@ -408,4 +408,8 @@ color: #ec0000;
 .footer-txt:hover{
     color: #000;
 }
+hr{
+    width: 80%;
+    border:1px solid gray;
+}
 /* footer */

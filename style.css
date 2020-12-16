@@ -92,7 +92,7 @@ body {
 
 
     }
-}
+} 
 
 /*---------------------------index----------------------------*/
 
@@ -176,18 +176,9 @@ body {
     width: 100%;
     height: 50%;
 }
-@media (max-width:600px){
-    .carousel-inner img,.carousel{
-       width: 355px;
-       padding: 0;
 
-    }
-}
-.row{
-    padding-left: 15px;
-}
-.car-row{
-    padding: 0;
+.social-app{
+    padding: 15px 15px;
 }
 
 .car-row-specs{
@@ -196,28 +187,28 @@ body {
 .car-row-price{
     margin-right: 5em;
 }
-@media (max-width:600px){
+/* @media (max-width:600px){
     .car-row-price{
        
         padding-left: 135px;
         padding-bottom: 10px;
 
     }
-}
+} */
 .price{
     font-weight: bold;
     font-size: 2em;
     color: rgb(204, 58, 58);
 }
 
-/* merceses-benz */
+
 .car-name{
     color: #fff;
     padding-top: 100px;
     padding-left: 20px;
 }
 
-/* merceses-benz */
+
 
 /*---------------------------cars-salle----------------------------*/
 /* font-family: 'Oswald',sans-serif;
@@ -310,6 +301,16 @@ body {
     box-shadow:none;
 }
 
+.services,h5{
+    display: flex;
+    flex-direction: row;
+    flex-grow: 2;
+    flex-wrap: wrap;
+    align-items: baseline;
+    align-content: center;
+    padding: 10px;
+    color: white;
+}
 
 #contact{
     background-color: #00a1ec6c;
@@ -321,7 +322,7 @@ body {
     text-decoration: none;
   }
   
-  
+
   @media (max-width: 575.98px) {
   
     #contact{padding-bottom: 800px;}
@@ -413,3 +414,16 @@ hr{
     border:1px solid gray;
 }
 /* footer */
+
+
+@media only screen and (min-width: 357px) {
+  
+.car-row{
+    overflow: auto;
+}
+    .sale-car{
+        display: flex;
+        justify-content: center;
+        padding: 0;
+    }
+}

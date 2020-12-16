@@ -1,0 +1,25 @@
+@media only screen and (max-width: 768px) {
+
+    .car-row-price{ 
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        padding-bottom: 10px;
+    }
+
+    .carousel-inner img,.carousel{
+        width: 355px;
+        padding: 0;
+     }
+
+    .cars-name{
+        color: white;
+        padding: 20px;
+        width: 20px;
+    }
+    .car-row{
+        padding: 0;
+    }
+  
+}
+
